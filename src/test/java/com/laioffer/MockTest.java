@@ -68,7 +68,7 @@ public class MockTest {
         //如果你使用了参数匹配，那么所有的参数都必须通过matchers来匹配
 //        verify(comparator).compare(anyString(),eq("hello"));
         //下面的为无效的参数匹配使用
-        verify(comparator).compare(anyString(),"hello");
+//        verify(comparator).compare(anyString(),"hello");
     }
 
     @Test(expected = IndexOutOfBoundsException.class)
